@@ -1,0 +1,95 @@
+@font-face {
+	font-family: CharisSILW;
+	src: url(fonts/CharisSIL-Regular.ttf) format("truetype");
+	font-display: swap;
+}
+@font-face {
+	font-family: CharisSILW;
+	font-style: italic;
+	src: url(fonts/CharisSIL-Italic.ttf) format("truetype");
+	font-display: swap;
+}
+
+body {
+	font-family: 'Charis SIL', CharisSILW, Cambria, serif;
+	margin: 2rem;
+}
+
+h6, h5, h4, h3, h2, h1 {
+	font-family: Georgia, serif;
+}
+
+.cjk {
+	font-family: 'Source Han Sans', 'Noto Sans CJK', sans-serif;
+	font-style: normal;
+}
+
+th,
+td {
+	border: 1px solid #000;
+	padding: 3px;
+	text-align: center;
+	line-height: 1.25;
+}
+
+th {
+	background-color: rgb(255, 235, 235);
+}
+
+td {
+	white-space: pre;
+}
+
+.title {
+	font-style: italic;
+}
+
+.reflink {
+	vertical-align: super;
+	line-height: normal;
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 0.75rem;
+	user-select: none;
+}
+.reflink::before {
+	content: '[';
+}
+.reflink::after {
+	content: ']';
+}
+.reflink:hover {
+	text-decoration: underline;
+}
+
+.lexical-set {
+	font-feature-settings: 'c2sc';
+}
+/* .lexical-set > i {
+	font-style: normal;
+	font-size: 80%;
+} */
+
+li:target {
+	background-color: rgb(255, 255, 190);
+}
+
+caption {
+	caption-side: top;
+}
+
+.references li::marker {
+	content: counters(list-item, '.') '. ';
+}
+
+nav ul {
+	border: 1px solid #000;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	list-style-type: none;
+}
+nav a {
+	flex: auto;
+}

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+		xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>http://hunterwb.com/albanian</loc>
+	</url>
+	<url>
+		<loc>http://hunterwb.com/bopomofo</loc>
+	</url>
+	<url>
+		<loc>http://hunterwb.com/deseret</loc>
+	</url>
+	<url>
+		<loc>http://hunterwb.com/ethiopic</loc>
+	</url>
+	<url>
+		<loc>http://hunterwb.com/kana</loc>
+	</url>
+	<url>
+		<loc>http://hunterwb.com/lisu</loc>
+	</url>
+	<url>
+		<loc>http://hunterwb.com/miao</loc>
+	</url>
+	<url>
+		<loc>http://hunterwb.com/shavian</loc>
+	</url>
+	<url>
+		<loc>http://hunterwb.com/syllabics</loc>
+	</url>
+</urlset>
