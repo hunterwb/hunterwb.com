@@ -48,6 +48,7 @@ td {
 	vertical-align: super;
 	line-height: normal;
 	text-decoration: none;
+	text-underline-position: from-font;
 	font-weight: normal;
 	font-size: 0.75rem;
 	user-select: none;
