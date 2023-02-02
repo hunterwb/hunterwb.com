@@ -24,13 +24,13 @@ var footer = '<footer><nav><ul>';
 	'Lisu',
 	'Miao',
 	'Shavian',
-	'Syllabics'
+	'Syllabics',
+	'Thaana'
 ].forEach(function(t) {
 	if (t === h1) {
 		footer += '<li><b>' + t + '</b></li>';
 	} else {
-		var page = t.toLowerCase().replace(' ', '-') + '.html';
-		footer += '<li><a href="' + page + '">' + t + '</a></li>';
+		footer += '<li><a href="' + t.toLowerCase().replace(' ', '-') + '">' + t + '</a></li>';
 	}
 });
 footer += '</ul></nav></footer>';
