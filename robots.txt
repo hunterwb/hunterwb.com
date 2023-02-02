@@ -1,1 +1,1 @@
-Sitemap: http://hunterwb.com/sitemap.xml
+Sitemap: https://hunterwb.com/sitemap.xml
