@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Shavian Script: Unicode, Orthography</title>
-	<meta name="description" content="Shavian Script: Unicode, Orthography">
+	<title>Shavian: English Phonetic Alphabet</title>
+	<meta name="description" content="Shavian: English Phonetic Alphabet">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" href="bootstrap-reboot.css">
 	<link rel="stylesheet" href="article.css">
@@ -11,6 +11,14 @@
 	<link rel="canonical" href="https://hunterwb.com/shavian">
 	<script defer src="article.js"></script>
 	<style>
+		@font-face {
+			font-family: NotoSansShavianW;
+			src: url('fonts/NotoSansShavian-Regular.otf') format('opentype');
+			font-display: block;
+		}
+		.shaw {
+			font-family: 'Segoe UI Historic', 'Noto Sans Shavian', NotoSansShavianW, sans-serif;
+		}
 		td {
 			width: 4.5em;
 		}
@@ -21,76 +29,80 @@
 	<h1>Shavian</h1>
 	<p class="title">&nbsp;</p>
 	<hr>
-	<section id="consonants">
-		<h2>Consonants</h2>
+	<section id="characters">
+		<h2>Characters</h2>
 		<p>
-			<table id="consonants-table">
-				<caption>Names and pronunciation of Shavian consonants</caption>
+			<table>
+				<caption>Shavian consonants and ligatures</caption>
 				<tbody>
 					<tr>
 						<th scope="col">tall</th>
 						<th scope="col">deep</th>
 					</tr>
 					<tr>
-						<td>𐑐<br><i>peep</i><br>/p/</td>
-						<td>𐑚<br><i>bib</i><br>/b/</td>
+						<td><span class="shaw">𐑐</span><br><i>peep</i><br>/p/</td>
+						<td><span class="shaw">𐑚</span><br><i>bib</i><br>/b/</td>
 					</tr>
 					<tr>
-						<td>𐑑<br><i>tot</i><br>/t/</td>
-						<td>𐑛<br><i>dead</i><br>/d/</td>
+						<td><span class="shaw">𐑑</span><br><i>tot</i><br>/t/</td>
+						<td><span class="shaw">𐑛</span><br><i>dead</i><br>/d/</td>
 					</tr>
 					<tr>
-						<td>𐑒<br><i>kick</i><br>/k/</td>
-						<td>𐑜<br><i>gag</i><br>/g/</td>
+						<td><span class="shaw">𐑒</span><br><i>kick</i><br>/k/</td>
+						<td><span class="shaw">𐑜</span><br><i>gag</i><br>/g/</td>
 					</tr>
 					<tr>
-						<td>𐑓<br><i>fee</i><br>/f/</td>
-						<td>𐑝<br><i>vow</i><br>/v/</td>
+						<td><span class="shaw">𐑓</span><br><i>fee</i><br>/f/</td>
+						<td><span class="shaw">𐑝</span><br><i>vow</i><br>/v/</td>
 					</tr>
 					<tr>
-						<td>𐑔<br><i>thigh</i><br>/θ/</td>
-						<td>𐑞<br><i>they</i><br>/ð/</td>
+						<td><span class="shaw">𐑔</span><br><i>thigh</i><br>/θ/</td>
+						<td><span class="shaw">𐑞</span><br><i>they</i><br>/ð/</td>
 					</tr>
 					<tr>
-						<td>𐑕<br><i>so</i><br>/s/</td>
-						<td>𐑟<br><i>zoo</i><br>/z/</td>
+						<td><span class="shaw">𐑕</span><br><i>so</i><br>/s/</td>
+						<td><span class="shaw">𐑟</span><br><i>zoo</i><br>/z/</td>
 					</tr>
 					<tr>
-						<td>𐑖<br><i>sure</i><br>/ʃ/</td>
-						<td>𐑠<br><i>measure</i><br>/ʒ/</td>
+						<td><span class="shaw">𐑖</span><br><i>sure</i><br>/ʃ/</td>
+						<td><span class="shaw">𐑠</span><br><i>measure</i><br>/ʒ/</td>
 					</tr>
 					<tr>
-						<td>𐑗<br><i>church</i><br>/tʃ/</td>
-						<td>𐑡<br><i>judge</i><br>/dʒ/</td>
+						<td><span class="shaw">𐑗</span><br><i>church</i><br>/tʃ/</td>
+						<td><span class="shaw">𐑡</span><br><i>judge</i><br>/dʒ/</td>
 					</tr>
 					<tr>
-						<td>𐑘<br><i>yea</i><br>/j/</td>
-						<td>𐑢<br><i>woe</i><br>/w/</td>
+						<td><span class="shaw">𐑘</span><br><i>yea</i><br>/j/</td>
+						<td><span class="shaw">𐑢</span><br><i>woe</i><br>/w/</td>
 					</tr>
 					<tr>
-						<td>𐑙<br><i>hung</i><br>/ŋ/</td>
-						<td>𐑣<br><i>ha-ha</i><br>/h/</td>
+						<td><span class="shaw">𐑙</span><br><i>hung</i><br>/ŋ/</td>
+						<td><span class="shaw">𐑣</span><br><i>ha-ha</i><br>/h/</td>
 					</tr>
 					<tr>
 						<th scope="colgroup" colspan="2">short</th>
 					</tr>
 					<tr>
-						<td>𐑤<br><i>loll</i><br>/l/</td>
-						<td>𐑮<br><i>roar</i><br>/r/</td>
+						<td><span class="shaw">𐑤</span><br><i>loll</i><br>/l/</td>
+						<td><span class="shaw">𐑮</span><br><i>roar</i><br>/r/</td>
 					</tr>
 					<tr>
-						<td>𐑥<br><i>mime</i><br>/m/</td>
-						<td>𐑯<br><i>nun</i><br>/n/</td>
+						<td><span class="shaw">𐑥</span><br><i>mime</i><br>/m/</td>
+						<td><span class="shaw">𐑯</span><br><i>nun</i><br>/n/</td>
+					</tr>
+					<tr>
+						<th scope="colgroup" colspan="2">ligatures</th>
+					</tr>
+					<tr>
+						<td><span class="shaw">𐑿</span><br><i>yew</i><br><span class="shaw">𐑘𐑵</span></td>
+						<td><span class="shaw">𐑾</span><br><i>ian</i><br><span class="shaw">𐑦𐑩</span></td>
 					</tr>
 				</tbody>
 			</table>
 		</p>
-	</section>
-	<section id="vowels">
-		<h2>Vowels</h2>
 		<p>
-			<table id="vowels-table">
-				<caption>Names and pronunciation of Shavian vowels</caption>
+			<table>
+				<caption>Shavian vowels</caption>
 				<thead>
 					<tr>
 						<th scope="col">vowel</th>
@@ -104,74 +116,59 @@
 				<tbody>
 					<tr>
 						<th scope="row">i</th>
-						<td>𐑦<br><i>if</i><br><span class="lexical-set">KIT</span>/<wbr><span class="lexical-set"><i>happ</i>Y</span></td>
-						<td>𐑽<br><i>ear</i><br><span class="lexical-set">NEAR</span></td>
-						<td>𐑰</td>
-						<td>𐑰<br><i>eat</i><br><span class="lexical-set">FLEECE</span></td>
+						<td><span class="shaw">𐑦</span><br><i>if</i><br><span class="lexical-set">KIT</span>/<wbr><span class="lexical-set">HAPP<u>Y</u></span></td>
+						<td><span class="shaw">𐑽</span><br><i>ear</i><br><span class="lexical-set">NEAR</span></td>
+						<td><span class="shaw">𐑰</span></td>
+						<td><span class="shaw">𐑰</span><br><i>eat</i><br><span class="lexical-set">FLEECE</span></td>
 						<td></td>
 					</tr>
 					<tr>
 						<th scope="row">e</th>
-						<td>𐑧<br><i>egg</i><br><span class="lexical-set">DRESS</span></td>
-						<td>𐑺<br><i>air</i><br><span class="lexical-set">SQUARE</span></td>
+						<td><span class="shaw">𐑧</span><br><i>egg</i><br><span class="lexical-set">DRESS</span></td>
+						<td><span class="shaw">𐑺</span><br><i>air</i><br><span class="lexical-set">SQUARE</span></td>
 						<td></td>
-						<td>𐑱<br><i>age</i><br><span class="lexical-set">FACE</span></td>
+						<td><span class="shaw">𐑱</span><br><i>age</i><br><span class="lexical-set">FACE</span></td>
 						<td></td>
 					</tr>
 					<tr>
 						<th scope="row">a</th>
-						<td>𐑨<br><i>ash</i><br><span class="lexical-set">TRAP</span></td>
-						<td>𐑸<br><i>are</i><br><span class="lexical-set">START</span></td>
-						<td>𐑭<br><i>ah</i><br><span class="lexical-set">PALM</span></td>
-						<td>𐑲<br><i>ice</i><br><span class="lexical-set">PRICE</span></td>
-						<td>𐑬<br><i>out</i><br><span class="lexical-set">MOUTH</span></td>
+						<td><span class="shaw">𐑨</span><br><i>ash</i><br><span class="lexical-set">TRAP</span></td>
+						<td><span class="shaw">𐑸</span><br><i>are</i><br><span class="lexical-set">START</span></td>
+						<td><span class="shaw">𐑭</span><br><i>ah</i><br><span class="lexical-set">PALM</span></td>
+						<td><span class="shaw">𐑲</span><br><i>ice</i><br><span class="lexical-set">PRICE</span></td>
+						<td><span class="shaw">𐑬</span><br><i>out</i><br><span class="lexical-set">MOUTH</span></td>
 					</tr>
 					<tr>
 						<th scope="row">o</th>
-						<td>𐑪<br><i>on</i><br><span class="lexical-set">LOT</span>/<wbr><span class="lexical-set">CLOTH</span></td>
-						<td>𐑹<br><i>or</i><br><span class="lexical-set">NORTH</span>/<wbr><span class="lexical-set">FORCE</span></td>
-						<td>𐑷<br><i>awe</i><br><span class="lexical-set">THOUGHT</span></td>
-						<td>𐑶<br><i>oil</i><br><span class="lexical-set">CHOICE</span></td>
-						<td>𐑴<br><i>oak</i><br><span class="lexical-set">GOAT</span></td>
+						<td><span class="shaw">𐑪</span><br><i>on</i><br><span class="lexical-set">LOT</span>/<wbr><span class="lexical-set">CLOTH</span></td>
+						<td><span class="shaw">𐑹</span><br><i>or</i><br><span class="lexical-set">NORTH</span>/<wbr><span class="lexical-set">FORCE</span></td>
+						<td><span class="shaw">𐑷</span><br><i>awe</i><br><span class="lexical-set">THOUGHT</span></td>
+						<td><span class="shaw">𐑶</span><br><i>oil</i><br><span class="lexical-set">CHOICE</span></td>
+						<td><span class="shaw">𐑴</span><br><i>oak</i><br><span class="lexical-set">GOAT</span></td>
 					</tr>
 					<tr>
 						<th scope="row">u</th>
-						<td>𐑫<br><i>wool</i><br><span class="lexical-set">FOOT</span></td>
+						<td><span class="shaw">𐑫</span><br><i>wool</i><br><span class="lexical-set">FOOT</span></td>
 						<td></td>
-						<td>𐑵</td>
+						<td><span class="shaw">𐑵</span></td>
 						<td></td>
-						<td>𐑵<br><i>ooze</i><br><span class="lexical-set">GOOSE</span></td>
+						<td><span class="shaw">𐑵</span><br><i>ooze</i><br><span class="lexical-set">GOOSE</span></td>
 					</tr>
 					<tr>
 						<th scope="row">ʌ</th>
-						<td>𐑳<br><i>up</i><br><span class="lexical-set">STRUT</span></td>
-						<td>𐑻<br><i>err</i><br><span class="lexical-set">NURSE</span></td>
+						<td><span class="shaw">𐑳</span><br><i>up</i><br><span class="lexical-set">STRUT</span></td>
+						<td><span class="shaw">𐑻</span><br><i>err</i><br><span class="lexical-set">NURSE</span></td>
 						<td></td>
 						<td></td>
 						<td></td>
 					</tr>
 					<tr>
 						<th scope="row">ə</th>
-						<td>𐑩<br><i>ado</i><br><span class="lexical-set"><i>comm</i>A</span></td>
-						<td>𐑼<br><i>array</i><br><span class="lexical-set"><i>lett</i>ER</span></td>
+						<td><span class="shaw">𐑩</span><br><i>ado</i><br><span class="lexical-set">COMM<u>A</u></span></td>
+						<td><span class="shaw">𐑼</span><br><i>array</i><br><span class="lexical-set">LETT<u>ER</u></span></td>
 						<td></td>
 						<td></td>
 						<td></td>
-					</tr>
-				</tbody>
-			</table>
-		</p>
-	</section>
-	<section id="ligatures">
-		<h2>Ligatures</h2>
-		<p>
-			<table id="ligatures-table">
-				<caption>Names and composition of Shavian ligatures</caption>
-				<tbody>
-					<tr>
-						<th scope="row">ligatures</th>
-						<td>𐑾<br><i>ian</i><br>𐑦𐑩</td>
-						<td>𐑿<br><i>yew</i><br>𐑘𐑵</td>
 					</tr>
 				</tbody>
 			</table>
@@ -187,6 +184,13 @@
 					<li id="reference-2.1"><q>Shavian.</q> <a href="https://www.unicode.org/charts/PDF/U10450.pdf">unicode.org</a>.</li>
 				</ol>
 			</li>
+			<li id="reference-3">
+				<cite>The Unicode® Standard: Version 15.0 – Core Specification</cite>. September 2022, <a href="https://www.unicode.org/versions/Unicode15.0.0/bookmarks.html#:~:text=Shavian">unicode.org</a>.
+				<ol>
+					<li id="reference-3.1"><q>Shavian.</q> p. 363, <a href="https://www.unicode.org/versions/Unicode15.0.0/ch08.pdf#G27260">unicode.org</a>.</li>
+				</ol>
+			</li>
+			<li id="reference-4"><cite>Shavian (Shaw) (Shaw)</cite>. ScriptSource, SIL International, <a href="https://scriptsource.org/scr/Shaw">scriptsource.org</a>.</li>
 		</ol>
 	</section>
 </main>

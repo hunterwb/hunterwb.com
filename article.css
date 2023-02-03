@@ -65,11 +65,8 @@ td {
 
 .lexical-set {
 	font-feature-settings: 'c2sc';
+	font-size: 90%;
 }
-/* .lexical-set > i {
-	font-style: normal;
-	font-size: 80%;
-} */
 
 li:target {
 	background-color: rgb(255, 255, 190);
