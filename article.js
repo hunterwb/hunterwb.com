@@ -25,7 +25,8 @@ var footer = '<footer><nav><ul>';
 	'Miao',
 	'Shavian',
 	'Syllabics',
-	'Thaana'
+	'Thaana',
+	'Tifinagh'
 ].forEach(function(t) {
 	if (t === h1) {
 		footer += '<li><b>' + t + '</b></li>';
