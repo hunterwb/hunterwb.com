@@ -20,6 +20,7 @@ var footer = '<footer><nav><ul>';
 	'Bopomofo',
 	'Deseret',
 	'Ethiopic',
+	'Hangul',
 	'Kana',
 	'Lisu',
 	'Miao',
