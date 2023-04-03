@@ -24,6 +24,7 @@ var footer = '<footer><nav><ul>';
 	'Kana',
 	'Lisu',
 	'Miao',
+	'Ogham',
 	'Shavian',
 	'Syllabics',
 	'Thaana',
