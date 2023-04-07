@@ -1,9 +1,5 @@
 'use strict';
 
-var h1 = document.querySelector('h1').innerText;
-
-document.querySelector('.title').innerText = document.title;
-
 var links = document.querySelectorAll('a');
 for (var i = 0; i < links.length; i++) {
 	var link = links[i];
@@ -14,27 +10,5 @@ for (var i = 0; i < links.length; i++) {
 	link.setAttribute('title', t);
 }
 
-var footer = '<footer><nav><ul>';
-[
-	'Albanian',
-	'Bopomofo',
-	'Deseret',
-	'Ethiopic',
-	'Hangul',
-	'Kana',
-	'Lisu',
-	'Miao',
-	'Ogham',
-	'Shavian',
-	'Syllabics',
-	'Thaana',
-	'Tifinagh'
-].forEach(function(t) {
-	if (t === h1) {
-		footer += '<li><b>' + t + '</b></li>';
-	} else {
-		footer += '<li><a href="' + t.toLowerCase().replace(' ', '-') + '">' + t + '</a></li>';
-	}
-});
-footer += '</ul></nav></footer>';
-document.querySelector('body').insertAdjacentHTML('beforeend', footer);
+var footer = '<footer><hr><a href="..">Home</a></footer>';
+document.querySelector('main').insertAdjacentHTML('afterend', footer);
