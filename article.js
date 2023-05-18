@@ -10,5 +10,5 @@ for (var i = 0; i < links.length; i++) {
 	link.setAttribute('title', t);
 }
 
-var footer = '<footer><hr><a href="..">Home</a></footer>';
+var footer = '<footer><hr><a href="/">Home</a></footer>';
 document.querySelector('main').insertAdjacentHTML('afterend', footer);

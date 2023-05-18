@@ -1,12 +1,12 @@
 @font-face {
 	font-family: CharisSILW;
-	src: url(fonts/CharisSIL-Regular.ttf) format("truetype");
+	src: url('/fonts/CharisSIL-Regular.ttf') format('truetype');
 	font-display: swap;
 }
 @font-face {
 	font-family: CharisSILW;
 	font-style: italic;
-	src: url(fonts/CharisSIL-Italic.ttf) format("truetype");
+	src: url('/fonts/CharisSIL-Italic.ttf') format('truetype');
 	font-display: swap;
 }
 
