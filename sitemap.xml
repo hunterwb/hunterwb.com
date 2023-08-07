@@ -1,22 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
-		xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	<url><loc>https://hunterwb.com</loc></url>
-	<url><loc>https://hunterwb.com/albanian</loc></url>
-	<url><loc>https://hunterwb.com/bopomofo</loc></url>
-	<url><loc>https://hunterwb.com/carian</loc></url>
-	<url><loc>https://hunterwb.com/deseret</loc></url>
-	<url><loc>https://hunterwb.com/ethiopic</loc></url>
-	<url><loc>https://hunterwb.com/hangul</loc></url>
-	<url><loc>https://hunterwb.com/kana</loc></url>
-	<url><loc>https://hunterwb.com/lisu</loc></url>
-	<url><loc>https://hunterwb.com/miao</loc></url>
-	<url><loc>https://hunterwb.com/old-permic</loc></url>
-	<url><loc>https://hunterwb.com/old-turkic</loc></url>
-	<url><loc>https://hunterwb.com/ogham</loc></url>
-	<url><loc>https://hunterwb.com/shavian</loc></url>
-	<url><loc>https://hunterwb.com/syllabics</loc></url>
-	<url><loc>https://hunterwb.com/thaana</loc></url>
-	<url><loc>https://hunterwb.com/tifinagh</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>https://hunterwb.com</loc></url>
+<url><loc>https://hunterwb.com/albanian</loc></url>
+<url><loc>https://hunterwb.com/bopomofo</loc></url>
+<url><loc>https://hunterwb.com/carian</loc></url>
+<url><loc>https://hunterwb.com/deseret</loc></url>
+<url><loc>https://hunterwb.com/ethiopic</loc></url>
+<url><loc>https://hunterwb.com/hangul</loc></url>
+<url><loc>https://hunterwb.com/kana</loc></url>
+<url><loc>https://hunterwb.com/lisu</loc></url>
+<url><loc>https://hunterwb.com/miao</loc></url>
+<url><loc>https://hunterwb.com/old-permic</loc></url>
+<url><loc>https://hunterwb.com/old-turkic</loc></url>
+<url><loc>https://hunterwb.com/ogham</loc></url>
+<url><loc>https://hunterwb.com/shavian</loc></url>
+<url><loc>https://hunterwb.com/syllabics</loc></url>
+<url><loc>https://hunterwb.com/thaana</loc></url>
+<url><loc>https://hunterwb.com/tifinagh</loc></url>
 </urlset>
