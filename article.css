@@ -151,9 +151,8 @@ li:target {
 	text-decoration: underline;
 }
 
-.lexical-set {
-	font-feature-settings: 'c2sc';
-	font-size: 90%;
+.small-caps {
+	font-variant-caps: all-small-caps;
 }
 
 .references li::marker {
