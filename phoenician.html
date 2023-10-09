@@ -11,8 +11,123 @@
 	<script defer src="/article.js"></script>
 	<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "6d59198c56e2444585424b24f864a3ac"}'></script>
 	<style>
+		.phnx {
+			font-family: 'Segoe UI Historic', serif;
+		}
+		.hebr {
+			font-family: sans-serif;
+		}
+		.prti {
+			font-family: 'Segoe UI Historic', serif;
+		}
+		@font-face {
+			font-family: NotoSansPsalterPahlaviW;
+			src: url('/fonts/NotoSansPsalterPahlavi-Regular.otf') format('opentype');
+			font-display: block;
+		}
+		.phlp {
+			font-family: 'Noto Sans Psalter Pahlavi', NotoSansPsalterPahlaviW, serif;
+		}
+		.phli {
+			font-family: 'Segoe UI Historic', serif;
+		}
+		@font-face {
+			font-family: NotoSansPalmyreneW;
+			src: url('/fonts/NotoSansPalmyrene-Regular.otf') format('opentype');
+			font-display: block;
+		}
+		.palm {
+			font-family: 'Noto Sans Palmyrene', NotoSansPalmyreneW, serif;
+		}
+		@font-face {
+			font-family: NotoSansNabataeanW;
+			src: url('/fonts/NotoSansNabataean-Regular.otf') format('opentype');
+			font-display: block;
+		}
+		.nbat {
+			font-family: 'Noto Sans Nabataean', NotoSansNabataeanW, serif;
+		}
+		.armi {
+			font-family: 'Segoe UI Historic', serif;
+		}
+		@font-face {
+			font-family: NotoSansElymaicW;
+			src: url('/fonts/NotoSansElymaic-Regular.otf') format('opentype');
+			font-display: block;
+		}
+		.elym {
+			font-family: 'Noto Sans Elymaic', NotoSansElymaicW, serif;
+		}
+		@font-face {
+			font-family: NotoSansHatranW;
+			src: url('/fonts/NotoSansHatran-Regular.otf') format('opentype');
+			font-display: block;
+		}
+		.hatr {
+			font-family: 'Noto Sans Hatran', NotoSansHatranW, serif;
+		}
+		@font-face {
+			font-family: NotoSansChorasmianW;
+			src: url('/fonts/NotoSansChorasmian-Regular.otf') format('opentype');
+			font-display: block;
+		}
+		.chrs {
+			font-family: 'Noto Sans Chorasmian', NotoSansChorasmianW, serif;
+		}
+		@font-face {
+			font-family: NotoSansSogdianW;
+			src: url('/fonts/NotoSansSogdian-Regular.otf') format('opentype');
+			font-display: block;
+		}
+		.sogd {
+			font-family: 'Noto Sans Sogdian', NotoSansSogdianW, serif;
+		}
+		@font-face {
+			font-family: NotoSansOldSogdianW;
+			src: url('/fonts/NotoSansOldSogdian-Regular.otf') format('opentype');
+			font-display: block;
+		}
+		.sogo {
+			font-family: 'Noto Sans Old Sogdian', NotoSansOldSogdianW, serif;
+		}
+		@font-face {
+			font-family: NotoSansSamaritanW;
+			src: url('/fonts/NotoSansSamaritan-Regular.otf') format('opentype');
+			font-display: block;
+		}
+		.samr {
+			font-family: 'Noto Sans Samaritan', NotoSansSamaritanW, serif;
+		}
+		@font-face {
+			font-family: NotoSerifOldUyghurW;
+			src: url('/fonts/NotoSerifOldUyghur-Regular.otf') format('opentype');
+			font-display: block;
+		}
+		.ougr {
+			font-family: 'Noto Serif Old Uyghur', NotoSerifOldUyghurW, serif;
+		}
+		@font-face {
+			font-family: NotoSansMandaicW;
+			src: url('/fonts/NotoSansMandaic-Regular.otf') format('opentype');
+			font-display: block;
+		}
+		.mand {
+			font-family: 'Noto Sans Mandaic', NotoSansMandaicW, serif;
+		}
+		@font-face {
+			font-family: NotoSansManichaeanW;
+			src: url('/fonts/NotoSansManichaean-Regular.otf') format('opentype');
+			font-display: block;
+		}
+		.mani {
+			font-family: 'Noto Sans Manichaean', NotoSansManichaeanW, serif;
+		}
+		.syrc {
+			font-family: 'Segoe UI Historic', 'Estrangelo Edessa', serif;
+		}
 		td {
-			width: 2.3em;
+			width: 2em;
+			white-space: normal;
 		}
 	</style>
 </head>
@@ -25,7 +140,7 @@
 	<hr>
 	<section>
 		<p>
-			<table>
+			<table dir="ltr">
 				<caption>Phoenician and derived alphabets</caption>
 				<tbody>
 					<tr>
@@ -55,403 +170,453 @@
 					</tr>
 					<tr>
 						<th scope="row">Phoenician</th>
-						<td>𐤀</td>
-						<td>𐤁</td>
-						<td>𐤂</td>
-						<td>𐤃</td>
-						<td>𐤄</td>
-						<td>𐤅</td>
-						<td>𐤆</td>
-						<td>𐤇</td>
-						<td>𐤈</td>
-						<td>𐤉</td>
-						<td>𐤊</td>
-						<td>𐤋</td>
-						<td>𐤌</td>
-						<td>𐤍</td>
-						<td>𐤎</td>
-						<td>𐤏</td>
-						<td>𐤐</td>
-						<td>𐤑</td>
-						<td>𐤒</td>
-						<td>𐤓</td>
-						<td>𐤔</td>
-						<td>𐤕</td>
+						<td><span class="phnx">𐤀</span></td>
+						<td><span class="phnx">𐤁</span></td>
+						<td><span class="phnx">𐤂</span></td>
+						<td><span class="phnx">𐤃</span></td>
+						<td><span class="phnx">𐤄</span></td>
+						<td><span class="phnx">𐤅</span></td>
+						<td><span class="phnx">𐤆</span></td>
+						<td><span class="phnx">𐤇</span></td>
+						<td><span class="phnx">𐤈</span></td>
+						<td><span class="phnx">𐤉</span></td>
+						<td><span class="phnx">𐤊</span></td>
+						<td><span class="phnx">𐤋</span></td>
+						<td><span class="phnx">𐤌</span></td>
+						<td><span class="phnx">𐤍</span></td>
+						<td><span class="phnx">𐤎</span></td>
+						<td><span class="phnx">𐤏</span></td>
+						<td><span class="phnx">𐤐</span></td>
+						<td><span class="phnx">𐤑</span></td>
+						<td><span class="phnx">𐤒</span></td>
+						<td><span class="phnx">𐤓</span></td>
+						<td><span class="phnx">𐤔</span></td>
+						<td><span class="phnx">𐤕</span></td>
 					</tr>
 					<tr>
 						<th scope="row">Hebrew</th>
-						<td>א</td>
-						<td>ב</td>
-						<td>ג</td>
-						<td>ד</td>
-						<td>ה</td>
-						<td>ו</td>
-						<td>ז</td>
-						<td>ח</td>
-						<td>ט</td>
-						<td>י</td>
-						<td>כ/ך</td>
-						<td>ל</td>
-						<td>מ/ם</td>
-						<td>נ/ן</td>
-						<td>ס</td>
-						<td>ע</td>
-						<td>פ/ף</td>
-						<td>צ/ץ</td>
-						<td>ק</td>
-						<td>ר</td>
-						<td>ש</td>
-						<td>ת</td>
+						<td><span class="hebr">א</span></td>
+						<td><span class="hebr">ב</span></td>
+						<td><span class="hebr">ג</span></td>
+						<td><span class="hebr">ד</span></td>
+						<td><span class="hebr">ה</span></td>
+						<td><span class="hebr">ו</span></td>
+						<td><span class="hebr">ז</span></td>
+						<td><span class="hebr">ח</span></td>
+						<td><span class="hebr">ט</span></td>
+						<td><span class="hebr">י</span></td>
+						<td><span class="hebr">כ ך</span></td>
+						<td><span class="hebr">ל</span></td>
+						<td><span class="hebr">מ ם</span></td>
+						<td><span class="hebr">נ ן</span></td>
+						<td><span class="hebr">ס</span></td>
+						<td><span class="hebr">ע</span></td>
+						<td><span class="hebr">פ ף</span></td>
+						<td><span class="hebr">צ ץ</span></td>
+						<td><span class="hebr">ק</span></td>
+						<td><span class="hebr">ר</span></td>
+						<td><span class="hebr">ש</span></td>
+						<td><span class="hebr">ת</span></td>
 					</tr>
 					<tr>
 						<th scope="row">Inscriptional Parthian</th>
-						<td>𐭀</td>
-						<td>𐭁</td>
-						<td>𐭂</td>
-						<td>𐭃</td>
-						<td>𐭄</td>
-						<td>𐭅</td>
-						<td>𐭆</td>
-						<td>𐭇</td>
-						<td>𐭈</td>
-						<td>𐭉</td>
-						<td>𐭊</td>
-						<td>𐭋</td>
-						<td>𐭌</td>
-						<td>𐭍</td>
-						<td>𐭎</td>
-						<td>𐭏</td>
-						<td>𐭐</td>
-						<td>𐭑</td>
-						<td>𐭒</td>
-						<td>𐭓</td>
-						<td>𐭔</td>
-						<td>𐭕</td>
+						<td><span class="prti">𐭀</span></td>
+						<td><span class="prti">𐭁</span></td>
+						<td><span class="prti">𐭂</span></td>
+						<td><span class="prti">𐭃</span></td>
+						<td><span class="prti">𐭄</span></td>
+						<td><span class="prti">𐭅</span></td>
+						<td><span class="prti">𐭆</span></td>
+						<td><span class="prti">𐭇</span></td>
+						<td><span class="prti">𐭈</span></td>
+						<td><span class="prti">𐭉</span></td>
+						<td><span class="prti">𐭊</span></td>
+						<td><span class="prti">𐭋</span></td>
+						<td><span class="prti">𐭌</span></td>
+						<td><span class="prti">𐭍</span></td>
+						<td><span class="prti">𐭎</span></td>
+						<td><span class="prti">𐭏</span></td>
+						<td><span class="prti">𐭐</span></td>
+						<td><span class="prti">𐭑</span></td>
+						<td><span class="prti">𐭒</span></td>
+						<td><span class="prti">𐭓</span></td>
+						<td><span class="prti">𐭔</span></td>
+						<td><span class="prti">𐭕</span></td>
 					</tr>
 					<tr>
 						<th scope="row">Psalter Pahlavi</th>
-						<td>𐮀</td>
-						<td>𐮁</td>
-						<td>𐮂</td>
-						<td>𐮃</td>
-						<td>𐮄</td>
-						<td>𐮅</td>
-						<td>𐮆</td>
-						<td>𐮇</td>
+						<td><span class="phlp">𐮀</span></td>
+						<td><span class="phlp">𐮁</span></td>
+						<td><span class="phlp">𐮂</span></td>
+						<td><span class="phlp">𐮃</span></td>
+						<td><span class="phlp">𐮄</span></td>
+						<td><span class="phlp">𐮅</span></td>
+						<td><span class="phlp">𐮆</span></td>
+						<td><span class="phlp">𐮇</span></td>
 						<td></td>
-						<td>𐮈</td>
-						<td>𐮉</td>
-						<td>𐮊</td>
-						<td>𐮋</td>
-						<td>𐮌</td>
-						<td>𐮍</td>
-						<td>𐮅</td>
-						<td>𐮎</td>
-						<td>𐮏</td>
-						<td>𐮋</td>
-						<td>𐮅</td>
-						<td>𐮐</td>
-						<td>𐮑</td>
+						<td><span class="phlp">𐮈</span></td>
+						<td><span class="phlp">𐮉</span></td>
+						<td><span class="phlp">𐮊</span></td>
+						<td><span class="phlp">𐮋</span></td>
+						<td><span class="phlp">𐮌</span></td>
+						<td><span class="phlp">𐮍</span></td>
+						<td><span class="phlp">𐮅</span></td>
+						<td><span class="phlp">𐮎</span></td>
+						<td><span class="phlp">𐮏</span></td>
+						<td><span class="phlp">𐮋</span></td>
+						<td><span class="phlp">𐮅</span></td>
+						<td><span class="phlp">𐮐</span></td>
+						<td><span class="phlp">𐮑</span></td>
 					</tr>
 					<tr>
 						<th scope="row">Inscriptional Pahlavi</th>
-						<td>𐭠</td>
-						<td>𐭡</td>
-						<td>𐭢</td>
-						<td>𐭣</td>
-						<td>𐭤</td>
-						<td>𐭥</td>
-						<td>𐭦</td>
-						<td>𐭧</td>
-						<td>𐭨</td>
-						<td>𐭩</td>
-						<td>𐭪</td>
-						<td>𐭫</td>
-						<td>𐭬</td>
-						<td>𐭭</td>
-						<td>𐭮</td>
-						<td>𐭥</td>
-						<td>𐭯</td>
-						<td>𐭰</td>
-						<td>𐭬</td>
-						<td>𐭥</td>
-						<td>𐭱</td>
-						<td>𐭲</td>
+						<td><span class="phli">𐭠</span></td>
+						<td><span class="phli">𐭡</span></td>
+						<td><span class="phli">𐭢</span></td>
+						<td><span class="phli">𐭣</span></td>
+						<td><span class="phli">𐭤</span></td>
+						<td><span class="phli">𐭥</span></td>
+						<td><span class="phli">𐭦</span></td>
+						<td><span class="phli">𐭧</span></td>
+						<td><span class="phli">𐭨</span></td>
+						<td><span class="phli">𐭩</span></td>
+						<td><span class="phli">𐭪</span></td>
+						<td><span class="phli">𐭫</span></td>
+						<td><span class="phli">𐭬</span></td>
+						<td><span class="phli">𐭭</span></td>
+						<td><span class="phli">𐭮</span></td>
+						<td><span class="phli">𐭥</span></td>
+						<td><span class="phli">𐭯</span></td>
+						<td><span class="phli">𐭰</span></td>
+						<td><span class="phli">𐭬</span></td>
+						<td><span class="phli">𐭥</span></td>
+						<td><span class="phli">𐭱</span></td>
+						<td><span class="phli">𐭲</span></td>
 					</tr>
 					<tr>
 						<th scope="row">Palmyrene</th>
-						<td>𐡠</td>
-						<td>𐡡</td>
-						<td>𐡢</td>
-						<td>𐡣</td>
-						<td>𐡤</td>
-						<td>𐡥</td>
-						<td>𐡦</td>
-						<td>𐡧</td>
-						<td>𐡨</td>
-						<td>𐡩</td>
-						<td>𐡪</td>
-						<td>𐡫</td>
-						<td>𐡬</td>
-						<td>𐡮/𐡭</td>
-						<td>𐡯</td>
-						<td>𐡰</td>
-						<td>𐡱</td>
-						<td>𐡲</td>
-						<td>𐡳</td>
-						<td>𐡴</td>
-						<td>𐡵</td>
-						<td>𐡶</td>
+						<td><span class="palm">𐡠</span></td>
+						<td><span class="palm">𐡡</span></td>
+						<td><span class="palm">𐡢</span></td>
+						<td><span class="palm">𐡣</span></td>
+						<td><span class="palm">𐡤</span></td>
+						<td><span class="palm">𐡥</span></td>
+						<td><span class="palm">𐡦</span></td>
+						<td><span class="palm">𐡧</span></td>
+						<td><span class="palm">𐡨</span></td>
+						<td><span class="palm">𐡩</span></td>
+						<td><span class="palm">𐡪</span></td>
+						<td><span class="palm">𐡫</span></td>
+						<td><span class="palm">𐡬</span></td>
+						<td><span class="palm">𐡮 𐡭</span></td>
+						<td><span class="palm">𐡯</span></td>
+						<td><span class="palm">𐡰</span></td>
+						<td><span class="palm">𐡱</span></td>
+						<td><span class="palm">𐡲</span></td>
+						<td><span class="palm">𐡳</span></td>
+						<td><span class="palm">𐡴</span></td>
+						<td><span class="palm">𐡵</span></td>
+						<td><span class="palm">𐡶</span></td>
 					</tr>
 					<tr>
 						<th scope="row">Nabataean</th>
-						<td>𐢁/𐢀</td>
-						<td>𐢃/𐢂</td>
-						<td>𐢄</td>
-						<td>𐢅</td>
-						<td>𐢇/𐢆</td>
-						<td>𐢈</td>
-						<td>𐢉</td>
-						<td>𐢊</td>
-						<td>𐢋</td>
-						<td>𐢍/𐢌</td>
-						<td>𐢏/𐢎</td>
-						<td>𐢑/𐢐</td>
-						<td>𐢓/𐢒</td>
-						<td>𐢕/𐢔</td>
-						<td>𐢖</td>
-						<td>𐢗</td>
-						<td>𐢘</td>
-						<td>𐢙</td>
-						<td>𐢚</td>
-						<td>𐢛</td>
-						<td>𐢝/𐢜</td>
-						<td>𐢞</td>
+						<td><span class="nbat">𐢁 𐢀</span></td>
+						<td><span class="nbat">𐢃 𐢂</span></td>
+						<td><span class="nbat">𐢄</span></td>
+						<td><span class="nbat">𐢅</span></td>
+						<td><span class="nbat">𐢇 𐢆</span></td>
+						<td><span class="nbat">𐢈</span></td>
+						<td><span class="nbat">𐢉</span></td>
+						<td><span class="nbat">𐢊</span></td>
+						<td><span class="nbat">𐢋</span></td>
+						<td><span class="nbat">𐢍 𐢌</span></td>
+						<td><span class="nbat">𐢏 𐢎</span></td>
+						<td><span class="nbat">𐢑 𐢐</span></td>
+						<td><span class="nbat">𐢓 𐢒</span></td>
+						<td><span class="nbat">𐢕 𐢔</span></td>
+						<td><span class="nbat">𐢖</span></td>
+						<td><span class="nbat">𐢗</span></td>
+						<td><span class="nbat">𐢘</span></td>
+						<td><span class="nbat">𐢙</span></td>
+						<td><span class="nbat">𐢚</span></td>
+						<td><span class="nbat">𐢛</span></td>
+						<td><span class="nbat">𐢝 𐢜</span></td>
+						<td><span class="nbat">𐢞</span></td>
 					</tr>
 					<tr>
 						<th scope="row">Imperial Aramaic</th>
-						<td>𐡀</td>
-						<td>𐡁</td>
-						<td>𐡂</td>
-						<td>𐡃</td>
-						<td>𐡄</td>
-						<td>𐡅</td>
-						<td>𐡆</td>
-						<td>𐡇</td>
-						<td>𐡈</td>
-						<td>𐡉</td>
-						<td>𐡊</td>
-						<td>𐡋</td>
-						<td>𐡌</td>
-						<td>𐡍</td>
-						<td>𐡎</td>
-						<td>𐡏</td>
-						<td>𐡐</td>
-						<td>𐡑</td>
-						<td>𐡒</td>
-						<td>𐡓</td>
-						<td>𐡔</td>
-						<td>𐡕</td>
+						<td><span class="armi">𐡀</span></td>
+						<td><span class="armi">𐡁</span></td>
+						<td><span class="armi">𐡂</span></td>
+						<td><span class="armi">𐡃</span></td>
+						<td><span class="armi">𐡄</span></td>
+						<td><span class="armi">𐡅</span></td>
+						<td><span class="armi">𐡆</span></td>
+						<td><span class="armi">𐡇</span></td>
+						<td><span class="armi">𐡈</span></td>
+						<td><span class="armi">𐡉</span></td>
+						<td><span class="armi">𐡊</span></td>
+						<td><span class="armi">𐡋</span></td>
+						<td><span class="armi">𐡌</span></td>
+						<td><span class="armi">𐡍</span></td>
+						<td><span class="armi">𐡎</span></td>
+						<td><span class="armi">𐡏</span></td>
+						<td><span class="armi">𐡐</span></td>
+						<td><span class="armi">𐡑</span></td>
+						<td><span class="armi">𐡒</span></td>
+						<td><span class="armi">𐡓</span></td>
+						<td><span class="armi">𐡔</span></td>
+						<td><span class="armi">𐡕</span></td>
 					</tr>
 					<tr>
 						<th scope="row">Elymaic</th>
-						<td>𐿠</td>
-						<td>𐿡</td>
-						<td>𐿢</td>
-						<td>𐿣</td>
-						<td>𐿤</td>
-						<td>𐿥</td>
-						<td>𐿦</td>
-						<td>𐿧</td>
-						<td>𐿨</td>
-						<td>𐿩</td>
-						<td>𐿪</td>
-						<td>𐿫</td>
-						<td>𐿬</td>
-						<td>𐿭</td>
-						<td>𐿮</td>
-						<td>𐿯</td>
-						<td>𐿰</td>
-						<td>𐿱</td>
-						<td>𐿲</td>
-						<td>𐿳</td>
-						<td>𐿴</td>
-						<td>𐿵</td>
+						<td><span class="elym">𐿠</span></td>
+						<td><span class="elym">𐿡</span></td>
+						<td><span class="elym">𐿢</span></td>
+						<td><span class="elym">𐿣</span></td>
+						<td><span class="elym">𐿤</span></td>
+						<td><span class="elym">𐿥</span></td>
+						<td><span class="elym">𐿦</span></td>
+						<td><span class="elym">𐿧</span></td>
+						<td><span class="elym">𐿨</span></td>
+						<td><span class="elym">𐿩</span></td>
+						<td><span class="elym">𐿪</span></td>
+						<td><span class="elym">𐿫</span></td>
+						<td><span class="elym">𐿬</span></td>
+						<td><span class="elym">𐿭</span></td>
+						<td><span class="elym">𐿮</span></td>
+						<td><span class="elym">𐿯</span></td>
+						<td><span class="elym">𐿰</span></td>
+						<td><span class="elym">𐿱</span></td>
+						<td><span class="elym">𐿲</span></td>
+						<td><span class="elym">𐿳</span></td>
+						<td><span class="elym">𐿴</span></td>
+						<td><span class="elym">𐿵</span></td>
 					</tr>
 					<tr>
 						<th scope="row">Hatran</th>
-						<td>𐣠</td>
-						<td>𐣡</td>
-						<td>𐣢</td>
-						<td>𐣣</td>
-						<td>𐣤</td>
-						<td>𐣥</td>
-						<td>𐣦</td>
-						<td>𐣧</td>
-						<td>𐣨</td>
-						<td>𐣩</td>
-						<td>𐣪</td>
-						<td>𐣫</td>
-						<td>𐣬</td>
-						<td>𐣭</td>
-						<td>𐣮</td>
-						<td>𐣯</td>
-						<td>𐣰</td>
-						<td>𐣱</td>
-						<td>𐣲</td>
-						<td>𐣣</td>
-						<td>𐣴</td>
-						<td>𐣵</td>
+						<td><span class="hatr">𐣠</span></td>
+						<td><span class="hatr">𐣡</span></td>
+						<td><span class="hatr">𐣢</span></td>
+						<td><span class="hatr">𐣣</span></td>
+						<td><span class="hatr">𐣤</span></td>
+						<td><span class="hatr">𐣥</span></td>
+						<td><span class="hatr">𐣦</span></td>
+						<td><span class="hatr">𐣧</span></td>
+						<td><span class="hatr">𐣨</span></td>
+						<td><span class="hatr">𐣩</span></td>
+						<td><span class="hatr">𐣪</span></td>
+						<td><span class="hatr">𐣫</span></td>
+						<td><span class="hatr">𐣬</span></td>
+						<td><span class="hatr">𐣭</span></td>
+						<td><span class="hatr">𐣮</span></td>
+						<td><span class="hatr">𐣯</span></td>
+						<td><span class="hatr">𐣰</span></td>
+						<td><span class="hatr">𐣱</span></td>
+						<td><span class="hatr">𐣲</span></td>
+						<td><span class="hatr">𐣣</span></td>
+						<td><span class="hatr">𐣴</span></td>
+						<td><span class="hatr">𐣵</span></td>
 					</tr>
 					<tr>
 						<th scope="row">Chorasmian</th>
-						<td>𐾰/𐾱</td>
-						<td>𐾲</td>
-						<td>𐾳</td>
-						<td>𐾴</td>
-						<td>𐾵</td>
-						<td>𐾶/𐾷</td>
-						<td>𐾸</td>
-						<td>𐾹</td>
+						<td><span class="chrs">𐾰 𐾱</span></td>
+						<td><span class="chrs">𐾲</span></td>
+						<td><span class="chrs">𐾳</span></td>
+						<td><span class="chrs">𐾴</span></td>
+						<td><span class="chrs">𐾵</span></td>
+						<td><span class="chrs">𐾶 𐾷</span></td>
+						<td><span class="chrs">𐾸</span></td>
+						<td><span class="chrs">𐾹</span></td>
 						<td></td>
-						<td>𐾺</td>
-						<td>𐾻</td>
-						<td>𐾼</td>
-						<td>𐾽</td>
-						<td>𐾾</td>
-						<td>𐾿</td>
-						<td>𐿀</td>
-						<td>𐿁</td>
+						<td><span class="chrs">𐾺</span></td>
+						<td><span class="chrs">𐾻</span></td>
+						<td><span class="chrs">𐾼</span></td>
+						<td><span class="chrs">𐾽</span></td>
+						<td><span class="chrs">𐾾</span></td>
+						<td><span class="chrs">𐾿</span></td>
+						<td><span class="chrs">𐿀</span></td>
+						<td><span class="chrs">𐿁</span></td>
 						<td></td>
 						<td></td>
-						<td>𐿂</td>
-						<td>𐿃</td>
-						<td>𐿄</td>
-					</tr>
-					<tr>
-						<th scope="row">Sogdian</th>
-						<td>𐼰</td>
-						<td>𐼱/𐽃</td>
-						<td>𐼲</td>
-						<td></td>
-						<td>𐼳</td>
-						<td>𐼴</td>
-						<td>𐼵</td>
-						<td>𐼶</td>
-						<td></td>
-						<td>𐼷</td>
-						<td>𐼸</td>
-						<td>𐼹</td>
-						<td>𐼺</td>
-						<td>𐼻</td>
-						<td>𐼼</td>
-						<td>𐼽/𐽀</td>
-						<td>𐼾</td>
-						<td>𐼿</td>
-						<td></td>
-						<td>𐽀/𐽄</td>
-						<td>𐽁/𐽅</td>
-						<td>𐽂</td>
+						<td><span class="chrs">𐿂</span></td>
+						<td><span class="chrs">𐿃</span></td>
+						<td><span class="chrs">𐿄</span></td>
 					</tr>
 					<tr>
 						<th scope="row">Old Sogdian</th>
-						<td>𐼀/𐼁</td>
-						<td>𐼂/𐼃</td>
-						<td>𐼄</td>
-						<td>𐼘</td>
-						<td>𐼅/𐼆</td>
-						<td>𐼇</td>
-						<td>𐼈</td>
-						<td>𐼉</td>
+						<td><span class="sogo">𐼀 𐼁</span></td>
+						<td><span class="sogo">𐼂 𐼃</span></td>
+						<td><span class="sogo">𐼄</span></td>
+						<td><span class="sogo">𐼘</span></td>
+						<td><span class="sogo">𐼅 𐼆</span></td>
+						<td><span class="sogo">𐼇</span></td>
+						<td><span class="sogo">𐼈</span></td>
+						<td><span class="sogo">𐼉</span></td>
 						<td></td>
-						<td>𐼊</td>
-						<td>𐼋</td>
-						<td>𐼌</td>
-						<td>𐼍</td>
-						<td>𐼎/<br>𐼏/𐼐</td>
-						<td>𐼑</td>
-						<td>𐼘/<br>𐼒/𐼓</td>
-						<td>𐼔</td>
-						<td>𐼕/<br>𐼖/𐼗</td>
+						<td><span class="sogo">𐼊</span></td>
+						<td><span class="sogo">𐼋</span></td>
+						<td><span class="sogo">𐼌</span></td>
+						<td><span class="sogo">𐼍</span></td>
+						<td><span class="sogo">𐼎 𐼏 𐼐</span></td>
+						<td><span class="sogo">𐼑</span></td>
+						<td><span class="sogo">𐼘 𐼒 𐼓</span></td>
+						<td><span class="sogo">𐼔</span></td>
+						<td><span class="sogo">𐼕 𐼖 𐼗</span></td>
 						<td></td>
-						<td>𐼘</td>
-						<td>𐼙</td>
-						<td>𐼚/<br>𐼛/𐼜</td>
+						<td><span class="sogo">𐼘</span></td>
+						<td><span class="sogo">𐼙</span></td>
+						<td><span class="sogo">𐼚 𐼛 𐼜</span></td>
+					</tr>
+					<tr>
+						<th scope="row">Sogdian</th>
+						<td><span class="sogd">𐼰</span></td>
+						<td><span class="sogd">𐼱 𐽃</span></td>
+						<td><span class="sogd">𐼲</span></td>
+						<td></td>
+						<td><span class="sogd">𐼳</span></td>
+						<td><span class="sogd">𐼴</span></td>
+						<td><span class="sogd">𐼵</span></td>
+						<td><span class="sogd">𐼶</span></td>
+						<td></td>
+						<td><span class="sogd">𐼷</span></td>
+						<td><span class="sogd">𐼸</span></td>
+						<td><span class="sogd">𐼹</span></td>
+						<td><span class="sogd">𐼺</span></td>
+						<td><span class="sogd">𐼻</span></td>
+						<td><span class="sogd">𐼼</span></td>
+						<td><span class="sogd">𐼽 𐽀</span></td>
+						<td><span class="sogd">𐼾</span></td>
+						<td><span class="sogd">𐼿</span></td>
+						<td></td>
+						<td><span class="sogd">𐽀 𐽄</span></td>
+						<td><span class="sogd">𐽁 𐽅</span></td>
+						<td><span class="sogd">𐽂</span></td>
 					</tr>
 					<tr>
 						<th scope="row">Samaritan</th>
-						<td>ࠀ</td>
-						<td>ࠁ</td>
-						<td>ࠂ</td>
-						<td>ࠃ</td>
-						<td>ࠄ</td>
-						<td>ࠅ</td>
-						<td>ࠆ</td>
-						<td>ࠇ</td>
-						<td>ࠈ</td>
-						<td>ࠉ</td>
-						<td>ࠊ</td>
-						<td>ࠋ</td>
-						<td>ࠌ</td>
-						<td>ࠍ</td>
-						<td>ࠎ</td>
-						<td>ࠏ</td>
-						<td>ࠐ</td>
-						<td>ࠑ</td>
-						<td>ࠒ</td>
-						<td>ࠓ</td>
-						<td>ࠔ</td>
-						<td>ࠕ</td>
+						<td><span class="samr">ࠀ</span></td>
+						<td><span class="samr">ࠁ</span></td>
+						<td><span class="samr">ࠂ</span></td>
+						<td><span class="samr">ࠃ</span></td>
+						<td><span class="samr">ࠄ</span></td>
+						<td><span class="samr">ࠅ</span></td>
+						<td><span class="samr">ࠆ</span></td>
+						<td><span class="samr">ࠇ</span></td>
+						<td><span class="samr">ࠈ</span></td>
+						<td><span class="samr">ࠉ</span></td>
+						<td><span class="samr">ࠊ</span></td>
+						<td><span class="samr">ࠋ</span></td>
+						<td><span class="samr">ࠌ</span></td>
+						<td><span class="samr">ࠍ</span></td>
+						<td><span class="samr">ࠎ</span></td>
+						<td><span class="samr">ࠏ</span></td>
+						<td><span class="samr">ࠐ</span></td>
+						<td><span class="samr">ࠑ</span></td>
+						<td><span class="samr">ࠒ</span></td>
+						<td><span class="samr">ࠓ</span></td>
+						<td><span class="samr">ࠔ</span></td>
+						<td><span class="samr">ࠕ</span></td>
 					</tr>
 					<tr>
 						<th scope="row">Old Uyghur</th>
-						<td>𐽰</td>
-						<td>𐽱</td>
-						<td>𐽲</td>
+						<td><span class="ougr">𐽰</span></td>
+						<td><span class="ougr">𐽱</span></td>
+						<td><span class="ougr">𐽲</span></td>
 						<td></td>
 						<td></td>
-						<td>𐽳</td>
-						<td>𐽴</td>
-						<td>𐽲/𐽵</td>
+						<td><span class="ougr">𐽳</span></td>
+						<td><span class="ougr">𐽴</span></td>
+						<td><span class="ougr">𐽲 𐽵</span></td>
 						<td></td>
-						<td>𐽶</td>
-						<td>𐽷</td>
-						<td>𐽸</td>
-						<td>𐽹</td>
-						<td>𐽺</td>
-						<td>𐽻</td>
+						<td><span class="ougr">𐽶</span></td>
+						<td><span class="ougr">𐽷</span></td>
+						<td><span class="ougr">𐽸</span></td>
+						<td><span class="ougr">𐽹</span></td>
+						<td><span class="ougr">𐽺</span></td>
+						<td><span class="ougr">𐽻</span></td>
 						<td></td>
-						<td>𐽼</td>
-						<td>𐽽</td>
+						<td><span class="ougr">𐽼</span></td>
+						<td><span class="ougr">𐽽</span></td>
 						<td></td>
-						<td>𐽾/𐾁</td>
-						<td>𐽿</td>
-						<td>𐾀</td>
+						<td><span class="ougr">𐽾 𐾁</span></td>
+						<td><span class="ougr">𐽿</span></td>
+						<td><span class="ougr">𐾀</span></td>
 					</tr>
 					<tr>
 						<th scope="row">Mandaic</th>
-						<td>ࡀ</td>
-						<td>ࡁ</td>
-						<td>ࡂ</td>
-						<td>ࡃ</td>
-						<td>ࡄ</td>
-						<td>ࡅ</td>
-						<td>ࡆ</td>
-						<td>ࡇ</td>
-						<td>ࡈ</td>
-						<td>ࡉ</td>
-						<td>ࡊ</td>
-						<td>ࡋ</td>
-						<td>ࡌ</td>
-						<td>ࡍ</td>
-						<td>ࡎ</td>
-						<td>ࡏ/ࡘ</td>
-						<td>ࡐ</td>
-						<td>ࡑ</td>
-						<td>ࡒ</td>
-						<td>ࡓ</td>
-						<td>ࡔ</td>
-						<td>ࡕ</td>
+						<td><span class="mand">ࡀ</span></td>
+						<td><span class="mand">ࡁ</span></td>
+						<td><span class="mand">ࡂ</span></td>
+						<td><span class="mand">ࡃ</span></td>
+						<td><span class="mand">ࡄ</span></td>
+						<td><span class="mand">ࡅ</span></td>
+						<td><span class="mand">ࡆ</span></td>
+						<td><span class="mand">ࡇ</span></td>
+						<td><span class="mand">ࡈ</span></td>
+						<td><span class="mand">ࡉ</span></td>
+						<td><span class="mand">ࡊ</span></td>
+						<td><span class="mand">ࡋ</span></td>
+						<td><span class="mand">ࡌ</span></td>
+						<td><span class="mand">ࡍ</span></td>
+						<td><span class="mand">ࡎ</span></td>
+						<td><span class="mand">ࡏ ࡘ</span></td>
+						<td><span class="mand">ࡐ</span></td>
+						<td><span class="mand">ࡑ</span></td>
+						<td><span class="mand">ࡒ</span></td>
+						<td><span class="mand">ࡓ</span></td>
+						<td><span class="mand">ࡔ</span></td>
+						<td><span class="mand">ࡕ</span></td>
+					</tr>
+					<tr>
+						<th scope="row">Manichaean</th>
+						<td><span class="mani">𐫀</span></td>
+						<td><span class="mani">𐫁 𐫂</span></td>
+						<td><span class="mani">𐫃 𐫄</span></td>
+						<td><span class="mani">𐫅</span></td>
+						<td><span class="mani">𐫆</span></td>
+						<td><span class="mani">𐫇</span></td>
+						<td><span class="mani">𐫉 𐫊 𐫋 𐫌</span></td>
+						<td><span class="mani">𐫍</span></td>
+						<td><span class="mani">𐫎</span></td>
+						<td><span class="mani">𐫏</span></td>
+						<td><span class="mani">𐫐 𐫑 𐫒</span></td>
+						<td><span class="mani">𐫓 𐫔 𐫕</span></td>
+						<td><span class="mani">𐫖</span></td>
+						<td><span class="mani">𐫗</span></td>
+						<td><span class="mani">𐫘</span></td>
+						<td><span class="mani">𐫙 𐫚</span></td>
+						<td><span class="mani">𐫛 𐫜</span></td>
+						<td><span class="mani">𐫝</span></td>
+						<td><span class="mani">𐫞 𐫟 𐫠</span></td>
+						<td><span class="mani">𐫡</span></td>
+						<td><span class="mani">𐫢 𐫣</span></td>
+						<td><span class="mani">𐫤</span></td>
+					</tr>
+					<tr>
+						<th scope="row">Syriac</th>
+						<td><span class="syrc">ܐ</span></td>
+						<td><span class="syrc">ܒ ܭ</span></td>
+						<td><span class="syrc">ܓ ܔ ܮ</span></td>
+						<td><span class="syrc">ܖ ܕ ܯ</span></td>
+						<td><span class="syrc">ܗ</span></td>
+						<td><span class="syrc">ܘ</span></td>
+						<td><span class="syrc">ܙ ݍ</span></td>
+						<td><span class="syrc">ܚ</span></td>
+						<td><span class="syrc">ܛ ܜ</span></td>
+						<td><span class="syrc">ܝ ܞ</span></td>
+						<td><span class="syrc">ܟ ݎ</span></td>
+						<td><span class="syrc">ܠ</span></td>
+						<td><span class="syrc">ܡ</span></td>
+						<td><span class="syrc">ܢ</span></td>
+						<td><span class="syrc">ܣ ܤ</span></td>
+						<td><span class="syrc">ܥ</span></td>
+						<td><span class="syrc">ܦ ܧ ݏ</span></td>
+						<td><span class="syrc">ܨ</span></td>
+						<td><span class="syrc">ܩ</span></td>
+						<td><span class="syrc">ܖ ܪ</span></td>
+						<td><span class="syrc">ܫ</span></td>
+						<td><span class="syrc">ܬ</span></td>
 					</tr>
 				</tbody>
 			</table>
@@ -464,21 +629,23 @@
 				<cite>Unicode Character Code Charts</cite>. <a href="https://www.unicode.org/charts/#:~:text=Phoenician">unicode.org</a>.
 				<ol>
 					<li id="reference-1.1">“Hebrew.” <a href="https://www.unicode.org/charts/PDF/U0590.pdf">unicode.org</a>.</li>
-					<li id="reference-1.2">“Samaritan.” <a href="https://www.unicode.org/charts/PDF/U0800.pdf">unicode.org</a>.</li>
-					<li id="reference-1.3">“Mandaic.” <a href="https://www.unicode.org/charts/PDF/U0840.pdf">unicode.org</a>.</li>
-					<li id="reference-1.4">“Imperial Aramaic.” <a href="https://www.unicode.org/charts/PDF/U10840.pdf">unicode.org</a>.</li>
-					<li id="reference-1.5">“Palmyrene.” <a href="https://www.unicode.org/charts/PDF/U10860.pdf">unicode.org</a>.</li>
-					<li id="reference-1.6">“Nabataean.” <a href="https://www.unicode.org/charts/PDF/U10880.pdf">unicode.org</a>.</li>
-					<li id="reference-1.7">“Hatran.” <a href="https://www.unicode.org/charts/PDF/U108E0.pdf">unicode.org</a>.</li>
-					<li id="reference-1.8">“Phoenician.” <a href="https://www.unicode.org/charts/PDF/U10900.pdf">unicode.org</a>.</li>
-					<li id="reference-1.9">“Inscriptional Parthian.” <a href="https://www.unicode.org/charts/PDF/U10B40.pdf">unicode.org</a>.</li>
-					<li id="reference-1.10">“Inscriptional Pahlavi.” <a href="https://www.unicode.org/charts/PDF/U10B60.pdf">unicode.org</a>.</li>
-					<li id="reference-1.11">“Psalter Pahlavi.” <a href="https://www.unicode.org/charts/PDF/U10B80.pdf">unicode.org</a>.</li>
-					<li id="reference-1.12">“Old Sogdian.” <a href="https://www.unicode.org/charts/PDF/U10F00.pdf">unicode.org</a>.</li>
-					<li id="reference-1.13">“Sogdian.” <a href="https://www.unicode.org/charts/PDF/U10F30.pdf">unicode.org</a>.</li>
-					<li id="reference-1.14">“Old Uyghur.” <a href="https://www.unicode.org/charts/PDF/U10F70.pdf">unicode.org</a>.</li>
-					<li id="reference-1.15">“Chorasmian.” <a href="https://www.unicode.org/charts/PDF/U10FB0.pdf">unicode.org</a>.</li>
-					<li id="reference-1.16">“Elymaic.” <a href="https://www.unicode.org/charts/PDF/U10FE0.pdf">unicode.org</a>.</li>
+					<li id="reference-1.2">“Syriac.” <a href="https://www.unicode.org/charts/PDF/U0700.pdf">unicode.org</a>.</li>
+					<li id="reference-1.3">“Samaritan.” <a href="https://www.unicode.org/charts/PDF/U0800.pdf">unicode.org</a>.</li>
+					<li id="reference-1.4">“Mandaic.” <a href="https://www.unicode.org/charts/PDF/U0840.pdf">unicode.org</a>.</li>
+					<li id="reference-1.5">“Imperial Aramaic.” <a href="https://www.unicode.org/charts/PDF/U10840.pdf">unicode.org</a>.</li>
+					<li id="reference-1.6">“Palmyrene.” <a href="https://www.unicode.org/charts/PDF/U10860.pdf">unicode.org</a>.</li>
+					<li id="reference-1.7">“Nabataean.” <a href="https://www.unicode.org/charts/PDF/U10880.pdf">unicode.org</a>.</li>
+					<li id="reference-1.8">“Hatran.” <a href="https://www.unicode.org/charts/PDF/U108E0.pdf">unicode.org</a>.</li>
+					<li id="reference-1.9">“Phoenician.” <a href="https://www.unicode.org/charts/PDF/U10900.pdf">unicode.org</a>.</li>
+					<li id="reference-1.10">“Manichaean.” <a href="https://www.unicode.org/charts/PDF/U10AC0.pdf">unicode.org</a>.</li>
+					<li id="reference-1.11">“Inscriptional Parthian.” <a href="https://www.unicode.org/charts/PDF/U10B40.pdf">unicode.org</a>.</li>
+					<li id="reference-1.12">“Inscriptional Pahlavi.” <a href="https://www.unicode.org/charts/PDF/U10B60.pdf">unicode.org</a>.</li>
+					<li id="reference-1.13">“Psalter Pahlavi.” <a href="https://www.unicode.org/charts/PDF/U10B80.pdf">unicode.org</a>.</li>
+					<li id="reference-1.14">“Old Sogdian.” <a href="https://www.unicode.org/charts/PDF/U10F00.pdf">unicode.org</a>.</li>
+					<li id="reference-1.15">“Sogdian.” <a href="https://www.unicode.org/charts/PDF/U10F30.pdf">unicode.org</a>.</li>
+					<li id="reference-1.16">“Old Uyghur.” <a href="https://www.unicode.org/charts/PDF/U10F70.pdf">unicode.org</a>.</li>
+					<li id="reference-1.17">“Chorasmian.” <a href="https://www.unicode.org/charts/PDF/U10FB0.pdf">unicode.org</a>.</li>
+					<li id="reference-1.18">“Elymaic.” <a href="https://www.unicode.org/charts/PDF/U10FE0.pdf">unicode.org</a>.</li>
 				</ol>
 			</li>
 		</ol>
