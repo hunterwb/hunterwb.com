@@ -111,6 +111,13 @@ caption {
 	text-align: left;
 }
 
+blockquote {
+	max-width: 40em;
+	padding-left: 1em;
+	border-left: 0.5em solid #ffebeb;
+	outline: 1px solid #000;
+}
+
 a {
 	color: #0d6efd;
 	text-decoration: underline;
