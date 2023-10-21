@@ -7,5 +7,5 @@ for (var i = 0; i < links.length; i++) {
 	if (link.className === 'reflink') {
 		t = document.getElementById(t.substring(1)).innerText;
 	}
-	link.setAttribute('title', t);
+	link.title = t;
 }
