@@ -17,12 +17,20 @@
 		font-display: block;
 	}
 	@font-face {
+		font-family: NotoSerifTodhriW;
+		src: url('/fonts/NotoSerifTodhri-Regular.otf') format('opentype');
+		font-display: block;
+	}
+	@font-face {
 		font-family: NotoSerifVithkuqiW;
 		src: url('/fonts/NotoSerifVithkuqi[wght].ttf') format('truetype');
 		font-display: block;
 	}
 	.elba {
 		font-family: 'Noto Sans Elbasan', NotoSansElbasanW, sans-serif;
+	}
+	.todr {
+		font-family: 'Noto Serif Todhri', NotoSerifTodhriW, sans-serif;
 	}
 	.vith {
 		font-family: 'Noto Serif Vithkuqi', NotoSerifVithkuqiW, sans-serif;
@@ -33,7 +41,7 @@
 <main>
 <header>
 	<h1>Albanian</h1>
-	<p class="subtitle">Latin, Elbasan, and Vithkuqi Scripts</p>
+	<p class="subtitle">Latin, Elbasan, Todhri & Vithkuqi Scripts</p>
 </header>
 <hr>
 <section>
@@ -55,52 +63,52 @@
 			<tbody>
 				<tr>
 					<th scope="row" colspan="2">nasal</th>
-					<td>⟨m⟩ /m/</td>
-					<td>⟨n⟩ /n/</td>
+					<td>/m/ ⟨m⟩</td>
+					<td>/n/ ⟨n⟩</td>
 					<td></td>
 					<td></td>
-					<td>⟨nj⟩ /ɲ/</td>
+					<td>/ɲ/ ⟨nj⟩</td>
 					<td></td>
 					<td></td>
 				</tr>
 				<tr>
 					<th scope="rowgroup" rowspan="2">plosive</th>
 					<th scope="row">voiceless</th>
-					<td>⟨p⟩ /p/</td>
-					<td>⟨t⟩ /t/</td>
-					<td>⟨c⟩ /ts/</td>
-					<td>⟨ç⟩ /tʃ/</td>
-					<td>⟨q⟩ /c/</td>
-					<td>⟨k⟩ /k/</td>
+					<td>/p/ ⟨p⟩</td>
+					<td>/t/ ⟨t⟩</td>
+					<td>/ts/ ⟨c⟩</td>
+					<td>/tʃ/ ⟨ç⟩</td>
+					<td>/c/ ⟨q⟩</td>
+					<td>/k/ ⟨k⟩</td>
 					<td></td>
 				</tr>
 				<tr>
 					<th scope="row">voiced</th>
-					<td>⟨b⟩ /b/</td>
-					<td>⟨d⟩ /d/</td>
-					<td>⟨x⟩ /dz/</td>
-					<td>⟨xh⟩ /dʒ/</td>
-					<td>⟨gj⟩ /ɟ/</td>
-					<td>⟨g⟩ /g/</td>
+					<td>/b/ ⟨b⟩</td>
+					<td>/d/ ⟨d⟩</td>
+					<td>/dz/ ⟨x⟩</td>
+					<td>/dʒ/ ⟨xh⟩</td>
+					<td>/ɟ/ ⟨gj⟩</td>
+					<td>/g/ ⟨g⟩</td>
 					<td></td>
 				</tr>
 				<tr>
 					<th scope="rowgroup" rowspan="2">fricative</th>
 					<th scope="row">voiceless</th>
-					<td>⟨f⟩ /f/</td>
-					<td>⟨th⟩ /θ/</td>
-					<td>⟨s⟩ /s/</td>
-					<td>⟨sh⟩ /ʃ/</td>
+					<td>/f/ ⟨f⟩</td>
+					<td>/θ/ ⟨th⟩</td>
+					<td>/s/ ⟨s⟩</td>
+					<td>/ʃ/ ⟨sh⟩</td>
 					<td></td>
 					<td></td>
 					<td></td>
 				</tr>
 				<tr>
 					<th scope="row">voiced</th>
-					<td>⟨v⟩ /v/</td>
-					<td>⟨dh⟩ /ð/</td>
-					<td>⟨z⟩ /z/</td>
-					<td>⟨zh⟩ /ʒ/</td>
+					<td>/v/ ⟨v⟩</td>
+					<td>/ð/ ⟨dh⟩</td>
+					<td>/z/ ⟨z⟩</td>
+					<td>/ʒ/ ⟨zh⟩</td>
 					<td></td>
 					<td></td>
 					<td></td>
@@ -108,17 +116,17 @@
 				<tr>
 					<th scope="row" colspan="2">approximant</th>
 					<td></td>
-					<td>⟨l⟩ /l/</td>
+					<td>/l/ ⟨l⟩</td>
 					<td></td>
 					<td></td>
-					<td>⟨y⟩ /j/</td>
-					<td>⟨ll⟩ /ɫ/</td>
-					<td>⟨h⟩ /h/</td>
+					<td>/j/ ⟨y⟩</td>
+					<td>/ɫ/ ⟨ll⟩</td>
+					<td>/h/ ⟨h⟩</td>
 				</tr>
 				<tr>
 					<th scope="row" colspan="2">tap</th>
 					<td></td>
-					<td>⟨r⟩ /ɾ/</td>
+					<td>/ɾ/ ⟨r⟩</td>
 					<td></td>
 					<td></td>
 					<td></td>
@@ -128,7 +136,7 @@
 				<tr>
 					<th scope="row" colspan="2">trill</th>
 					<td></td>
-					<td>⟨rr⟩ /r/</td>
+					<td>/r/ ⟨rr⟩</td>
 					<td></td>
 					<td></td>
 					<td></td>
@@ -150,19 +158,19 @@
 			<tbody>
 				<tr>
 					<th scope="row">high</th>
-					<td>⟨i⟩ /i/</td>
-					<td>⟨y⟩ /y/</td>
-					<td>⟨u⟩ /u/</td>
+					<td>/i/ ⟨i⟩</td>
+					<td>/y/ ⟨y⟩</td>
+					<td>/u/ ⟨u⟩</td>
 				</tr>
 				<tr>
 					<th scope="row">mid</th>
-					<td>⟨e⟩ /e/</td>
-					<td>⟨ë⟩ /ə/</td>
-					<td>⟨o⟩ /o/</td>
+					<td>/e/ ⟨e⟩</td>
+					<td>/ə/ ⟨ë⟩</td>
+					<td>/o/ ⟨o⟩</td>
 				</tr>
 				<tr>
 					<th scope="row">low</th>
-					<td colspan="3">⟨a⟩ /a/</td>
+					<td colspan="3">/a/ ⟨a⟩</td>
 				</tr>
 			</tbody>
 		</table>
@@ -175,6 +183,7 @@
 					<th scope="col">IPA</th>
 					<th scope="col">Latin</th>
 					<th scope="col">Elbasan</th>
+					<th scope="col">Todhri</th>
 					<th scope="col">Vithkuqi</th>
 				</tr>
 			</thead>
@@ -183,11 +192,20 @@
 					<td>/a/</td>
 					<td>a</td>
 					<td><span class="elba">𐔀</span></td>
+					<td><span class="todr">𐗀</span></td>
 					<td><span class="vith">𐖗</span></td>
+				</tr>
+				<tr>
+					<td>/as/</td>
+					<td>(as)</td>
+					<td></td>
+					<td><span class="todr">𐗁</span></td>
+					<td></td>
 				</tr>
 				<tr>
 					<td>/b/</td>
 					<td>(b)</td>
+					<td></td>
 					<td></td>
 					<td><span class="vith">𐖘</span></td>
 				</tr>
@@ -195,89 +213,132 @@
 					<td>/b/</td>
 					<td>b</td>
 					<td><span class="elba">𐔁</span></td>
+					<td><span class="todr">𐗂</span></td>
 					<td><span class="vith">𐖙</span></td>
+				</tr>
+				<tr>
+					<td>/ᵐb/</td>
+					<td>(mb)</td>
+					<td></td>
+					<td><span class="todr">𐗃</span></td>
+					<td></td>
 				</tr>
 				<tr>
 					<td>/ts/</td>
 					<td>c</td>
 					<td><span class="elba">𐔂</span></td>
+					<td><span class="todr">𐗄</span></td>
 					<td><span class="vith">𐖚</span></td>
 				</tr>
 				<tr>
 					<td>/tʃ/</td>
 					<td>ç</td>
 					<td><span class="elba">𐔃</span></td>
+					<td><span class="todr">𐗅</span></td>
 					<td><span class="vith">𐖛</span></td>
 				</tr>
 				<tr>
 					<td>/d/</td>
 					<td>d</td>
 					<td><span class="elba">𐔄</span></td>
+					<td><span class="todr">𐗆</span></td>
 					<td><span class="vith">𐖜</span></td>
 				</tr>
 				<tr>
 					<td>/ⁿd/</td>
 					<td>(nd)</td>
 					<td><span class="elba">𐔅</span></td>
+					<td><span class="todr">𐗇</span></td>
 					<td></td>
 				</tr>
 				<tr>
 					<td>/ð/</td>
 					<td>dh</td>
 					<td><span class="elba">𐔆</span></td>
+					<td><span class="todr">𐗈</span></td>
 					<td><span class="vith">𐖝</span></td>
 				</tr>
 				<tr>
 					<td>/e/</td>
 					<td>e</td>
 					<td><span class="elba">𐔇</span></td>
+					<td><span class="todr">𐗉</span></td>
 					<td><span class="vith">𐖞</span></td>
 				</tr>
 				<tr>
 					<td>/ə/</td>
 					<td>ë</td>
 					<td><span class="elba">𐔈</span></td>
+					<td><span class="todr">𐗊</span></td>
 					<td><span class="vith">𐖟</span></td>
 				</tr>
 				<tr>
 					<td>/f/</td>
 					<td>f</td>
 					<td><span class="elba">𐔉</span></td>
+					<td><span class="todr">𐗋</span></td>
 					<td><span class="vith">𐖠</span></td>
 				</tr>
 				<tr>
 					<td>/g/</td>
 					<td>g</td>
 					<td><span class="elba">𐔊</span></td>
+					<td><span class="todr">𐗌</span></td>
 					<td><span class="vith">𐖡</span></td>
+				</tr>
+				<tr>
+					<td>/ⁿg/</td>
+					<td>(ng)</td>
+					<td></td>
+					<td><span class="todr">𐗍</span></td>
+					<td></td>
 				</tr>
 				<tr>
 					<td>/ɟ/</td>
 					<td>gj</td>
 					<td><span class="elba">𐔋</span></td>
+					<td><span class="todr">𐗎</span></td>
 					<td>(<span class="vith">𐖡𐖦</span>)</td>
 				</tr>
 				<tr>
-					<td>/ɣ/</td>
-					<td>(γ)</td>
-					<td><span class="elba">𐔥</span></td>
+					<td>/ⁿɟ/</td>
+					<td>(ngj)</td>
+					<td></td>
+					<td><span class="todr">𐗏</span></td>
 					<td></td>
 				</tr>
 				<tr>
 					<td>/ɣ/</td>
-					<td>(γ)</td>
+					<td>(gh)</td>
+					<td><span class="elba">𐔥</span></td>
+					<td><span class="todr">𐗮</span></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>/ɣ/</td>
+					<td>(gh)</td>
 					<td><span class="elba">𐔦</span></td>
+					<td></td>
 					<td></td>
 				</tr>
 				<tr>
 					<td>/h/</td>
 					<td>h</td>
 					<td><span class="elba">𐔌</span></td>
+					<td><span class="todr">𐗐</span></td>
 					<td><span class="vith">𐖣</span></td>
+				</tr>
+				<tr>
+					<td>/ç/</td>
+					<td>(hj)</td>
+					<td></td>
+					<td><span class="todr">𐗑</span></td>
+					<td></td>
 				</tr>
 				<tr>
 					<td>/h/</td>
 					<td>(h)</td>
+					<td></td>
 					<td></td>
 					<td><span class="vith">𐖤</span></td>
 				</tr>
@@ -285,11 +346,13 @@
 					<td>/i/</td>
 					<td>i</td>
 					<td><span class="elba">𐔍</span></td>
+					<td><span class="todr">𐗒</span></td>
 					<td><span class="vith">𐖥</span></td>
 				</tr>
 				<tr>
 					<td>/i̯/</td>
 					<td>(i)</td>
+					<td></td>
 					<td></td>
 					<td><span class="vith">𐖦</span></td>
 				</tr>
@@ -297,150 +360,231 @@
 					<td>/j/</td>
 					<td>j</td>
 					<td><span class="elba">𐔎</span></td>
+					<td><span class="todr">𐗓</span></td>
 					<td><span class="vith">𐖧</span></td>
 				</tr>
 				<tr>
 					<td>/k/</td>
 					<td>k</td>
 					<td><span class="elba">𐔏</span></td>
+					<td><span class="todr">𐗔</span></td>
 					<td><span class="vith">𐖨</span></td>
 				</tr>
 				<tr>
 					<td>/x/</td>
-					<td>(χ)</td>
+					<td>(kh)</td>
 					<td><span class="elba">𐔧</span></td>
+					<td><span class="todr">𐗱</span></td>
 					<td></td>
 				</tr>
 				<tr>
 					<td>/l/</td>
 					<td>l</td>
 					<td><span class="elba">𐔐</span></td>
+					<td><span class="todr">𐗕</span></td>
 					<td><span class="vith">𐖩</span></td>
 				</tr>
 				<tr>
 					<td>/ɫ/</td>
 					<td>ll</td>
 					<td><span class="elba">𐔑</span></td>
+					<td><span class="todr">𐗖</span></td>
 					<td><span class="vith">𐖪</span></td>
 				</tr>
 				<tr>
 					<td>/m/</td>
 					<td>m</td>
 					<td><span class="elba">𐔒</span></td>
+					<td><span class="todr">𐗗</span></td>
 					<td><span class="vith">𐖫</span></td>
 				</tr>
 				<tr>
 					<td>/n/</td>
 					<td>n</td>
 					<td><span class="elba">𐔓</span></td>
+					<td><span class="todr">𐗘</span></td>
 					<td><span class="vith">𐖬</span></td>
 				</tr>
 				<tr>
-					<td>/ⁿ/</td>
+					<td>/ᴺ/</td>
 					<td>(n)</td>
 					<td><span class="elba">𐔔</span></td>
+					<td></td>
 					<td></td>
 				</tr>
 				<tr>
 					<td>/ɲ/</td>
 					<td>nj</td>
 					<td><span class="elba">𐔕</span></td>
+					<td><span class="todr">𐗙</span></td>
 					<td><span class="vith">𐖭</span></td>
 				</tr>
 				<tr>
 					<td>/o/</td>
 					<td>o</td>
 					<td><span class="elba">𐔖</span></td>
+					<td><span class="todr">𐗚</span></td>
 					<td><span class="vith">𐖮</span></td>
+				</tr>
+				<tr>
+					<td>/oː/</td>
+					<td>(o)</td>
+					<td></td>
+					<td><span class="todr">𐗳</span></td>
+					<td></td>
 				</tr>
 				<tr>
 					<td>/p/</td>
 					<td>p</td>
 					<td><span class="elba">𐔗</span></td>
+					<td><span class="todr">𐗛</span></td>
 					<td><span class="vith">𐖯</span></td>
+				</tr>
+				<tr>
+					<td>/ps/</td>
+					<td>(ps)</td>
+					<td></td>
+					<td><span class="todr">𐗲</span></td>
+					<td></td>
 				</tr>
 				<tr>
 					<td>/c/</td>
 					<td>q</td>
 					<td><span class="elba">𐔘</span></td>
+					<td><span class="todr">𐗜</span></td>
 					<td><span class="vith">𐖰</span></td>
 				</tr>
 				<tr>
 					<td>/ɾ/</td>
 					<td>r</td>
 					<td><span class="elba">𐔙</span></td>
+					<td><span class="todr">𐗝</span></td>
 					<td><span class="vith">𐖱</span></td>
 				</tr>
 				<tr>
 					<td>/r/</td>
 					<td>rr</td>
 					<td><span class="elba">𐔚</span></td>
+					<td><span class="todr">𐗞</span></td>
 					<td></td>
 				</tr>
 				<tr>
 					<td>/s/</td>
 					<td>s</td>
 					<td><span class="elba">𐔛</span></td>
+					<td><span class="todr">𐗟</span></td>
 					<td><span class="vith">𐖳</span></td>
+				</tr>
+				<tr>
+					<td>/sk/</td>
+					<td>(sk)</td>
+					<td></td>
+					<td><span class="todr">𐗰</span></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>/st/</td>
+					<td>(st)</td>
+					<td></td>
+					<td><span class="todr">𐗯</span></td>
+					<td></td>
 				</tr>
 				<tr>
 					<td>/ʃ/</td>
 					<td>sh</td>
 					<td><span class="elba">𐔜</span></td>
+					<td><span class="todr">𐗠</span></td>
 					<td><span class="vith">𐖴</span></td>
+				</tr>
+				<tr>
+					<td>/ʃt/</td>
+					<td>(sht)</td>
+					<td></td>
+					<td><span class="todr">𐗡</span></td>
+					<td></td>
 				</tr>
 				<tr>
 					<td>/t/</td>
 					<td>t</td>
 					<td><span class="elba">𐔝</span></td>
+					<td><span class="todr">𐗢</span></td>
 					<td><span class="vith">𐖵</span></td>
 				</tr>
 				<tr>
 					<td>/θ/</td>
 					<td>th</td>
 					<td><span class="elba">𐔞</span></td>
+					<td><span class="todr">𐗣</span></td>
 					<td><span class="vith">𐖶</span></td>
 				</tr>
 				<tr>
 					<td>/u/</td>
 					<td>u</td>
 					<td><span class="elba">𐔟</span></td>
+					<td><span class="todr">𐗤</span></td>
 					<td><span class="vith">𐖷</span></td>
 				</tr>
 				<tr>
 					<td>/v/</td>
 					<td>v</td>
 					<td><span class="elba">𐔠</span></td>
+					<td><span class="todr">𐗥</span></td>
 					<td><span class="vith">𐖸</span></td>
 				</tr>
 				<tr>
 					<td>/dz/</td>
 					<td>x</td>
 					<td><span class="elba">𐔡</span></td>
+					<td><span class="todr">𐗦</span></td>
 					<td><span class="vith">𐖹</span></td>
+				</tr>
+				<tr>
+					<td>/ⁿx/</td>
+					<td>(nx)</td>
+					<td></td>
+					<td><span class="todr">𐗧</span></td>
+					<td></td>
 				</tr>
 				<tr>
 					<td>/dʒ/</td>
 					<td>xh</td>
 					<td>(<span class="elba">𐔃</span>)</td>
+					<td><span class="todr">𐗨</span></td>
 					<td>(<span class="vith">𐖛</span>)</td>
+				</tr>
+				<tr>
+					<td>/ⁿdʒ/</td>
+					<td>(nxh)</td>
+					<td></td>
+					<td><span class="todr">𐗩</span></td>
+					<td></td>
 				</tr>
 				<tr>
 					<td>/y/</td>
 					<td>y</td>
 					<td><span class="elba">𐔢</span></td>
+					<td><span class="todr">𐗪</span></td>
 					<td><span class="vith">𐖻</span></td>
+				</tr>
+				<tr>
+					<td>/jy/</td>
+					<td>(jy)</td>
+					<td></td>
+					<td><span class="todr">𐗫</span></td>
+					<td></td>
 				</tr>
 				<tr>
 					<td>/z/</td>
 					<td>z</td>
 					<td><span class="elba">𐔣</span></td>
+					<td><span class="todr">𐗬</span></td>
 					<td><span class="vith">𐖼</span></td>
 				</tr>
 				<tr>
 					<td>/ʒ/</td>
 					<td>zh</td>
 					<td><span class="elba">𐔤</span></td>
+					<td><span class="todr">𐗭</span></td>
 					<td>(<span class="vith">𐖴𐖼</span>)</td>
 				</tr>
 			</tbody>
@@ -455,6 +599,7 @@
 			<ol>
 				<li id="reference-1.1">“Elbasan.” <a href="https://www.unicode.org/charts/PDF/U10500.pdf">unicode.org</a>.</li>
 				<li id="reference-1.2">“Vithkuqi.” <a href="https://www.unicode.org/charts/PDF/U10570.pdf">unicode.org</a>.</li>
+				<li id="reference-1.3">“Todhri.” <a href="https://www.unicode.org/charts/PDF/U105C0.pdf">unicode.org</a>.</li>
 			</ol>
 		</li>
 		<li id="reference-2">
@@ -488,17 +633,19 @@
 			</ol>
 		</li>
 		<li id="reference-3">
-			<cite>The Unicode® Standard: Version 15.0 – Core Specification</cite>. September 2022, <a href="https://www.unicode.org/versions/Unicode15.0.0/bookmarks.html">unicode.org</a>.
+			<cite>The Unicode® Standard: Version 16.0 – Core Specification</cite>. 2024-09-10, <a href="https://www.unicode.org/versions/Unicode16.0.0/core-spec/l">unicode.org</a>.
 			<ol>
-				<li id="reference-3.1">“Elbasan.” p. 358, <a href="http://www.unicode.org/versions/Unicode15.0.0/ch08.pdf#G27032">unicode.org</a>.</li>
-				<li id="reference-3.2">“Vithkuqi.” p. 360, <a href="http://www.unicode.org/versions/Unicode15.0.0/ch08.pdf#G40863">unicode.org</a>.</li>
+				<li id="reference-3.1">“Elbasan.” <a href="https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-8/#G27032">unicode.org</a>.</li>
+				<li id="reference-3.2">“Vithkuqi.” <a href="https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-8/#G40863">unicode.org</a>.</li>
+				<li id="reference-3.3">“Todhri.” <a href="https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-8/#G746332">unicode.org</a>.</li>
 			</ol>
 		</li>
 		<li id="reference-4">
 			ScriptSource, SIL International, <a href="https://scriptsource.org">scriptsource.org</a>.
 			<ol>
 				<li id="reference-4.1"><cite>Elbasan [Elba]</cite>. <a href="https://scriptsource.org/scr/Elba">scriptsource.org</a>.</li>
-				<li id="reference-4.2"><cite>Vithkuqi [Vith]</cite>. <a href="https://scriptsource.org/scr/Vith">scriptsource.org</a>.</li>
+				<li id="reference-4.2"><cite>Todhri [Todr]</cite>. <a href="https://scriptsource.org/scr/Todr">scriptsource.org</a>.</li>
+				<li id="reference-4.3"><cite>Vithkuqi [Vith]</cite>. <a href="https://scriptsource.org/scr/Vith">scriptsource.org</a>.</li>
 			</ol>
 		</li>
 		<li id="reference-5">Stavro Skendi. “The History of the Albanian Alphabet: A Case of Complex Cultural and Political Development.” <cite lang="de">Südost-Forschungen</cite>, Volume 19, 1960, pp. 263–284, <a href="https://www.suedost-forschungen.de/portal/index.php/sof/article/view/12679">suedost-forschungen.de</a>.</li>
@@ -512,7 +659,8 @@
 			Noto Fonts, Google, <a href="https://github.com/notofonts">github.com</a>.
 			<ol>
 				<li id="reference-12.1"><cite>Noto Elbasan</cite>. <a href="https://github.com/notofonts/elbasan">github.com</a>.</li>
-				<li id="reference-12.2"><cite>Noto Vithkuqi</cite>. <a href="https://github.com/notofonts/vithkuqi">github.com</a>.</li>
+				<li id="reference-12.2"><cite>Noto Todhri</cite>. <a href="https://github.com/notofonts/todhri">github.com</a>.</li>
+				<li id="reference-12.3"><cite>Noto Vithkuqi</cite>. <a href="https://github.com/notofonts/vithkuqi">github.com</a>.</li>
 			</ol>
 		</li>
 	</ol>
